@@ -14,6 +14,7 @@
 		398B552928D31CD20060BCF3 /* Bank_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398B552828D31CD20060BCF3 /* Bank_AppTests.swift */; };
 		398B553328D31CD20060BCF3 /* Bank_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398B553228D31CD20060BCF3 /* Bank_AppUITests.swift */; };
 		398B553528D31CD20060BCF3 /* Bank_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398B553428D31CD20060BCF3 /* Bank_AppUITestsLaunchTests.swift */; };
+		398B554428D31CF50060BCF3 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398B554328D31CF50060BCF3 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		398B552E28D31CD20060BCF3 /* Bank-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bank-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		398B553228D31CD20060BCF3 /* Bank_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bank_AppUITests.swift; sourceTree = "<group>"; };
 		398B553428D31CD20060BCF3 /* Bank_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bank_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		398B554328D31CF50060BCF3 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				398B551728D31CD00060BCF3 /* Bank_AppApp.swift */,
 				398B551928D31CD00060BCF3 /* ContentView.swift */,
+				398B554328D31CF50060BCF3 /* CardView.swift */,
 				398B551B28D31CD20060BCF3 /* Assets.xcassets */,
 				398B551D28D31CD20060BCF3 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				398B551A28D31CD00060BCF3 /* ContentView.swift in Sources */,
+				398B554428D31CF50060BCF3 /* CardView.swift in Sources */,
 				398B551828D31CD00060BCF3 /* Bank_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
