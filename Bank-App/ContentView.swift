@@ -9,13 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationView {
-            HStack{
-                YellowCard()
+        VStack {
+            NavigationView {
+                VStack{
+                    HStack {
+                        ForEach(items) { item in
+                                NavCard(item: item)
+                                .padding(10)
+                        }
+                    }
+                }
             }
         }
     }
-    
+
     struct ContentView_Previews: PreviewProvider {
         static var previews: some View {
             ContentView()
