@@ -31,7 +31,7 @@ struct NavCard: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 24.0, height: 24.0)
-                .background(Color(#colorLiteral(red: 0.6666666865348816, green: 0.6196078658103943, blue: 0.7176470756530762, alpha: 1)))
+                .background(Color.card)
             Text(item.title)
                 .font(.footnote)
                 .fontWeight(.bold)

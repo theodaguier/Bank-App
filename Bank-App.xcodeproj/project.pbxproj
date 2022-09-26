@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		39403DBF28D3EC8800DAD7BC /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39403DBE28D3EC8800DAD7BC /* Storyboard.storyboard */; };
 		398B551828D31CD00060BCF3 /* Bank_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398B551728D31CD00060BCF3 /* Bank_AppApp.swift */; };
 		398B551A28D31CD00060BCF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398B551928D31CD00060BCF3 /* ContentView.swift */; };
 		398B551C28D31CD20060BCF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 398B551B28D31CD20060BCF3 /* Assets.xcassets */; };
@@ -18,6 +17,7 @@
 		398B554428D31CF50060BCF3 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398B554328D31CF50060BCF3 /* CardView.swift */; };
 		398B554728D3C4BE0060BCF3 /* NavCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398B554628D3C4BE0060BCF3 /* NavCardView.swift */; };
 		398B554928D3D3020060BCF3 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398B554828D3D3020060BCF3 /* Data.swift */; };
+		39FDD73728D47B6700D99DB0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FDD73628D47B6700D99DB0 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		39403DBE28D3EC8800DAD7BC /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		398B551428D31CD00060BCF3 /* Bank-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bank-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		398B551728D31CD00060BCF3 /* Bank_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bank_AppApp.swift; sourceTree = "<group>"; };
 		398B551928D31CD00060BCF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +51,7 @@
 		398B554328D31CF50060BCF3 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		398B554628D3C4BE0060BCF3 /* NavCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavCardView.swift; sourceTree = "<group>"; };
 		398B554828D3D3020060BCF3 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		39FDD73628D47B6700D99DB0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +104,8 @@
 			children = (
 				398B551728D31CD00060BCF3 /* Bank_AppApp.swift */,
 				398B554828D3D3020060BCF3 /* Data.swift */,
+				39FDD73628D47B6700D99DB0 /* Extensions.swift */,
 				398B551928D31CD00060BCF3 /* ContentView.swift */,
-				39403DBE28D3EC8800DAD7BC /* Storyboard.storyboard */,
 				398B554528D3C4120060BCF3 /* Components */,
 				398B551B28D31CD20060BCF3 /* Assets.xcassets */,
 				398B551D28D31CD20060BCF3 /* Preview Content */,
@@ -253,7 +253,6 @@
 			files = (
 				398B551F28D31CD20060BCF3 /* Preview Assets.xcassets in Resources */,
 				398B551C28D31CD20060BCF3 /* Assets.xcassets in Resources */,
-				39403DBF28D3EC8800DAD7BC /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				398B551A28D31CD00060BCF3 /* ContentView.swift in Sources */,
+				39FDD73728D47B6700D99DB0 /* Extensions.swift in Sources */,
 				398B554928D3D3020060BCF3 /* Data.swift in Sources */,
 				398B554428D31CF50060BCF3 /* CardView.swift in Sources */,
 				398B554728D3C4BE0060BCF3 /* NavCardView.swift in Sources */,

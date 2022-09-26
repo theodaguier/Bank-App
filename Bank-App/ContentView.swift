@@ -9,22 +9,28 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            NavigationView {
-                VStack{
-                    HStack {
-                        ForEach(items) { item in
-                                NavCard(item: item)
-                                .padding(10)
-                        }
-                    }
+        NavigationView {
+            ScrollView{
+                HStack {
+                    //NavCard()
+                }
+            }
+            .background(Color.background)
+            .frame(maxWidth: .infinity)
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar{
+                ToolbarItem{
+                    Image(systemName: "bell").foregroundColor(Color.icon)
                 }
             }
         }
+        .navigationViewStyle(.stack)
+
     }
 
     struct ContentView_Previews: PreviewProvider {
         static var previews: some View {
+            ContentView()
             ContentView()
         }
     }

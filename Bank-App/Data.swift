@@ -14,5 +14,3 @@ struct Item : Identifiable {
 }
 
 var items = [Item(title: "My bonuses", image: "Star"),Item(title: "My budget", image: "Wallet"),Item(title: "Finance Analysis", image: "stats")]
-                  
-//
